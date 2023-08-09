@@ -1,6 +1,8 @@
 $primary-color: #20577E;
 $secondary-color: #4b7f8f;
 $third-color: #1d4152;
+$forth-color: #7e8c8e;
+$fifth-color: #e4e9e7;
 
 .btn {
   margin: 20px;
@@ -21,4 +23,16 @@ $third-color: #1d4152;
   background-color: $primary-color;
   width: 100%;
   height: 100vh;
+}
+
+/* navbar */
+
+.navbarcontainer {
+  background-color: $fifth-color;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
 }
