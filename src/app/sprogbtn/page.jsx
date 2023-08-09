@@ -6,7 +6,7 @@ const page = () => {
       <div>
           <select name="danish" id="danish">
         <option value="flag"><img src="" alt="" />dk</option>
-        <option value="flag">eng</option>
+        <option value="flag">engs</option>
         <option value="flag">ger</option>
           </select>
       </div>
