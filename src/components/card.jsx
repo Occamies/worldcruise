@@ -43,6 +43,9 @@ const card = () => {
           </a>
         ))}
       </div>
+      <div className={style.scrolldown}>
+        <img src="/assets/move.png" alt="" />
+      </div>
     </section>
   )
 }
