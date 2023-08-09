@@ -1,14 +1,15 @@
 import React from 'react'
 import variables from "./variables.module.scss"
-import Btn from "@/app/navknap/btn"
 
-const page = () => {
+
+const Btn = ({name}) => {
   return (
     <main className={variables.main}>
-    <Btn name={"pul"} />
+    <button className={variables.btn}>{name}</button>
+    
     </main>
     
   )
 }
 
-export default page
+export default Btn
