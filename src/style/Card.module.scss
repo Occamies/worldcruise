@@ -61,3 +61,9 @@
     width: 125px;
   }
 }
+
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
