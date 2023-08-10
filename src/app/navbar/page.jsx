@@ -1,16 +1,19 @@
 import React from 'react'
 import style from "@/style/style.module.scss"
 
+
 const page = () => {
   return (
     <>
-    <main  className={style.main}>
     <section className={style.navbarcontainer}>
-      <img src="" alt="icon" />
+      <img src="/assets/user.png" alt="icon" className={style.navbaricons} />
       <input type="text" />
-      flag
+      <div className={style.btn}>
+        <img src="/assets/denmark.png" alt="" className={style.navbaricons}/>
+        <img src="/assets/bluedownarrow.png" alt="" className={style.navbaricons} />
+
+      </div>
     </section>
-    </main>
     </>
   )
 }
