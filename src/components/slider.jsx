@@ -38,7 +38,7 @@ function SliderPage() {
   const displayedImages = images.concat(images);
 
   return (
-    <div className={`container-fluid text-center mt-4 p-5 ${styles.sliderContainer}`}>
+    <div className={`container-fluid text-center  p-5 ${styles.sliderContainer}`}>
       <div
         className={`${styles.slider} ${isHovered ? styles.paused : ''}`}
         onMouseEnter={() => setIsHovered(true)}

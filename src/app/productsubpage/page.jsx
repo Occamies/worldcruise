@@ -8,7 +8,7 @@ function page() {
     <>
     <Navbarsubpage/>
     <Map />
-    <SliderPage />
+    <SliderPage/>
     </>
   )
 }
