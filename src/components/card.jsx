@@ -30,7 +30,7 @@ const cardData = [
 
 const card = () => {
   return (
-    <section>
+    <section className={style.main}>
       <div className={style.container}>
         {cardData.map((card, index) => (
           <a href="/" className={style.link} key={index}>
