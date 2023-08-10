@@ -28,11 +28,17 @@ $fifth-color: #e4e9e7;
 /* navbar */
 
 .navbarcontainer {
-  background-color: $fifth-color;
+  background-color: $third-color;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+
+}
+
+.navbaricons {
+  height: 30px;
+  
 
 }
