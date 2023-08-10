@@ -1,0 +1,39 @@
+/* page.module.css */
+
+.sliderContainer {
+  overflow: hidden;
+  background-color: #1D4152;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.slider.paused .slideWrapper {
+  animation-play-state: paused;
+}
+
+.slideWrapper {
+  display: flex;
+  animation: slideAnimation 35s linear infinite;
+}
+
+.slide {
+  flex: 0 0 25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
