@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import styles from './page.module.css';
+import styles from '../style/page.module.scss'
 
 function SliderPage() {
   const [images, setImages] = useState([]);
@@ -47,11 +47,11 @@ function SliderPage() {
         <div className={styles.slideWrapper}>
           {displayedImages.map((image, idx) => (
             <div key={idx} className={styles.slide}>
-                <img
-                  src={`/images/${image}`}
-                  alt={`Slide ${idx}`}
-                  className={`img-fluid ${styles.img}`}
-                />
+              <img
+                src={`assets/${image}`}
+                alt={`Slide ${idx}`}
+                className={`img-fluid ${styles.img}`}
+              />
             </div>
           ))}
         </div>
