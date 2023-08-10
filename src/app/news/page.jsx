@@ -1,6 +1,6 @@
 import React from 'react'
 import style from '../../style/News.module.scss'
-import Btn from "@/app/navknap/btn"
+import Btn from "../../components/btn"
 
 const page = () => {
   return (
