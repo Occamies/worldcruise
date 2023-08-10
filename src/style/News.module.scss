@@ -3,11 +3,12 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   margin: 25px 10em;
+  background-color: transparent;
 }
 
 .newsCard {
   background-color: #E4E9E7;
-  height: 400px;
+  min-height: fit-content;
   width: 400px;
   padding: 25px;
   margin: 0 auto;
