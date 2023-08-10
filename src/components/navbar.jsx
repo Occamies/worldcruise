@@ -2,7 +2,7 @@ import React from 'react'
 import style from "@/style/style.module.scss"
 
 
-const page = () => {
+const navbar = () => {
   return (
     <>
       <section className={style.navbarcontainer}>
@@ -21,4 +21,4 @@ const page = () => {
   )
 }
 
-export default page
+export default navbar
