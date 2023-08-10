@@ -4,9 +4,9 @@ import styles from '../style/Map.module.scss';
 function Map() {
   return (
     <div className={styles['map-container']}>
-      <div className={styles['dropdown-container']}>
+      <div className={` ${styles.dropdownContainer}`}>
         <select className={`form-select ${styles.dropdown_bg}` }>
-          <option>Kategorier</option>
+          <option >Kategorier</option>
           <option>Option 1</option>
           <option>Option 2</option>
           <option>Option 3</option>
