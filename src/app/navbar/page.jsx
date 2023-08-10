@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
       <section className={style.navbarcontainer}>
-        <img src="/assets/worldcruise-logo.webp" alt="" className={style.navlogo} />
+        <img src="/assets/worldcruise-logo-white.png" alt="" className={style.navlogo} />
         
         <form className={style.form}>
           <input type="search" placeholder="Search..." className={style.navinput} />
