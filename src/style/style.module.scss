@@ -4,7 +4,8 @@ $third-color: #1d4152;
 $forth-color: #7e8c8e;
 $fifth-color: #e4e9e7;
 
-.btn {
+.btn,
+.navsubpage {
   margin: 20px;
   background-color: $secondary-color;
   border-radius: 10px;
@@ -15,7 +16,14 @@ $fifth-color: #e4e9e7;
   cursor: pointer;
 }
 
-.btn:hover {
+.navsubpage {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+}
+
+.btn:hover,
+.navsubpage:hover {
   border-width: 3px;
   padding: 5px 11px;
 }
