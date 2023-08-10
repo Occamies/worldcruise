@@ -6,7 +6,7 @@ const navbar = () => {
   return (
     <>
       <section className={style.navbarcontainer}>
-        <img src="/assets/worldcruise-logo.webp" alt="" className={style.navlogo} />
+        <img src="/assets/worldcruise-logo-white.png" alt="logo" className={style.navlogo} />
 
         <form className={style.form}>
           <input type="search" placeholder="Search..." className={style.navinput} />
@@ -15,8 +15,8 @@ const navbar = () => {
         <div className={style.navbariconbox}>
           <img src="/assets/userLightBlue.png" alt="icon" className={style.usericon} />
           <div className={style.btn}>
-            <img src="/assets/denmark.png" alt="" className={style.navbaricons} />
-            <img src="/assets/bluedownarrow.png" alt="" className={style.navbaricons} />
+            <img src="/assets/denmark.png" alt="flag" className={style.navbaricons} />
+            <img src="/assets/bluedownarrow.png" alt="chevron" className={style.navbaricons} />
 
           </div>
         </div>

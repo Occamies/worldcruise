@@ -2,11 +2,11 @@ import React from 'react'
 import style from "@/style/style.module.scss"
 
 
-const page = () => {
+const navbarsubpage = () => {
   return (
     <>
       <section className={style.navbarcontainer}>
-        <img src="/assets/worldcruise-logo-white.png" alt="" className={style.navlogo} />
+        <img src="/assets/worldcruise-logo-white.png" alt="logo" className={style.navlogo} />
         
         <ul className={style.navbarsubpagebtncon}>
           <li className={style.btn}>nyheder</li>
@@ -19,8 +19,8 @@ const page = () => {
         <div className={style.navbariconbox}>
         <img src="/assets/userLightBlue.png" alt="icon" className={style.usericon} />
         <div className={style.btn}>
-          <img src="/assets/denmark.png" alt="" className={style.navbaricons} />
-          <img src="/assets/bluedownarrow.png" alt="" className={style.navbaricons} />
+          <img src="/assets/denmark.png" alt="flag" className={style.navbaricons} />
+          <img src="/assets/bluedownarrow.png" alt="chevron" className={style.navbaricons} />
 
         </div>
         </div>
@@ -29,4 +29,4 @@ const page = () => {
   )
 }
 
-export default page
+export default navbarsubpage
