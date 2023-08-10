@@ -1,20 +1,24 @@
 $secondary-color: #4b7f8f;
 
 .map-container {
-    position: relative;
+  position: relative;
 
-    .dropdown_bg {
-        background-color: $secondary-color;
-        color: white;
-        border: 0;
-    }
-    
-  
-    .dropdown-container {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      z-index: 1000;
-    }
+  .dropdown_bg {
+    background-color: $secondary-color;
+    color: white;
+    border: 0;
+    width: 250%; 
   }
-  
+
+  .dropdown_bg option {
+    font-size: 16px; 
+    padding: 10px; 
+  }
+
+  .dropdownContainer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+  }
+}
