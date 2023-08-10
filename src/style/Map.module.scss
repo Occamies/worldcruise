@@ -1,19 +1,12 @@
-$secondary-color: #4b7f8f;
 
-.map-container {
+
+.mapContainer {
   position: relative;
+  background-color: #20577E;
 
-  .dropdown_bg {
-    background-color: $secondary-color;
-    color: white;
-    border: 0;
-    width: 250%; 
-  }
+  
+  
 
-  .dropdown_bg option {
-    font-size: 16px; 
-    padding: 10px; 
-  }
 
   .dropdownContainer {
     position: absolute;
@@ -22,3 +15,24 @@ $secondary-color: #4b7f8f;
     z-index: 1000;
   }
 }
+
+
+.bg_blue {
+    background-color: #20577E;
+}
+
+.bg_dropdown {
+    background-color: #4b7f8f;
+    color: white;
+    border: 0;
+    font-size: 27px;
+
+  
+    
+  }
+
+
+
+  
+
+  
