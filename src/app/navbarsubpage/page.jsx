@@ -8,10 +8,14 @@ const page = () => {
       <section className={style.navbarcontainer}>
         <img src="/assets/worldcruise-logo.webp" alt="" className={style.navlogo} />
         
-        <form className={style.form}>
-          <input type="search" placeholder="Search..." className={style.navinput} />
-          <button type="submit" className={style.submitbtn}>Search</button>
-        </form>
+        <ul className={style.navbarsubpagebtncon}>
+          <li className={style.btn}>nyheder</li>
+          <li className={style.btn}>kundeservice</li>
+          <li className={style.btn}>Tøj</li>
+          <li className={style.btn}>Oplevelser</li>
+          <li className={style.btn}>Kultur</li>
+        </ul>
+        
         <div className={style.navbariconbox}>
         <img src="/assets/userLightBlue.png" alt="icon" className={style.usericon} />
         <div className={style.btn}>
