@@ -131,8 +131,28 @@ $fifth-color: #e4e9e7;
     }
 }
 
+<<<<<<< HEAD
 
 .back_bg {
   color: white;
   font-size: 60px;
+=======
+.newscon:last-of-type {
+  margin-bottom: 0;
+}
+
+
+/* modal window */
+
+.modalOverlay {
+  /* Styles for overlay background */
+}
+
+.modal {
+  /* Styles for modal container */
+}
+
+.closeButton {
+  /* Styles for close button */
+>>>>>>> 5a9106b9a9f4c08d6b4aa000a455b80de62e77fa
 }
