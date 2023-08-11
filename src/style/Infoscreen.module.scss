@@ -1,0 +1,94 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  background-image: url('/assets/worldCruiseInc.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.infoScreen {
+  z-index: 99;
+
+  .header {
+    display: grid;
+    grid-template-columns: 90vw 10vw;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 25px;
+    z-index: 99;
+    color: #fff;
+
+    .nextStop {
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+      padding-left: 10em;
+    }
+
+  }
+}
+
+.time {
+  margin-right: 5em;
+}
+
+.weathernow {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 55px;
+  color: #fff;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      height: 125px;
+      padding: 0 25px;
+    }
+  }
+
+}
+
+.weatherdetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  color: #fff;
+  justify-items: center;
+  margin: 0 auto;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    img {
+      height: 60px;
+      height: 60px;
+      padding: 0 20px;
+    }
+  }
+}
+
+.line {
+  max-width: 1100px;
+  height: 3px;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.overlay {
+  background-color: #20577E;
+  opacity: .4;
+  z-index: 98;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
