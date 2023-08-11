@@ -27,6 +27,9 @@
 
 .img {
   border-radius: 10px;
+  max-height: 220px;
+  min-height: 220px;
+  width: 90%;
 }
 
 @keyframes slideAnimation {
