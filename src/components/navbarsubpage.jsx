@@ -1,13 +1,16 @@
 import React from 'react'
 import style from "@/style/style.module.scss"
+import Link from 'next/link'
 
 
 const navbarsubpage = () => {
   return (
     <>
       <section className={style.navbarcontainer}>
+        <Link href="/">
+          <span className={` ${style.back_bg}`}>&#8592;</span>
+          </Link>
         <img src="/assets/worldcruise-logo-white.png" alt="logo" className={style.navlogo} />
-        
         <ul className={style.navbarsubpagebtncon}>
           <li className={style.navsubpage}>nyheder</li>
           <li className={style.navsubpage}>kundeservice</li>
