@@ -1,11 +1,17 @@
 import React from 'react'
-import News from '../../components/news'
+import style from '../../style/homepage.module.scss'
+import Newsbox from '../../components/newsbox'
+import Navbarsubpage from '@/components/navbarsubpage'
 
 const page = () => {
   return (
-    <div>
-      <News />
-    </div>
+    <main className={style.main}>
+      <Navbarsubpage/>
+      <Newsbox />
+      <Newsbox />
+      <Newsbox />
+      <Newsbox />
+    </main>
   )
 }
 

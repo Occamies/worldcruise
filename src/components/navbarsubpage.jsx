@@ -9,11 +9,11 @@ const navbarsubpage = () => {
         <img src="/assets/worldcruise-logo-white.png" alt="logo" className={style.navlogo} />
         
         <ul className={style.navbarsubpagebtncon}>
-          <li className={style.btn}>nyheder</li>
-          <li className={style.btn}>kundeservice</li>
-          <li className={style.btn}>Tøj</li>
-          <li className={style.btn}>Oplevelser</li>
-          <li className={style.btn}>Kultur</li>
+          <li className={style.navsubpage}>nyheder</li>
+          <li className={style.navsubpage}>kundeservice</li>
+          <li className={style.navsubpage}>Tøj</li>
+          <li className={style.navsubpage}>Oplevelser</li>
+          <li className={style.navsubpage}>Kultur</li>
         </ul>
         
         <div className={style.navbariconbox}>
